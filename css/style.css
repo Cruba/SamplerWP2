@@ -136,17 +136,49 @@ font-family: var(--pruebas);
     padding:  1rem ;
     margin-top: 0;
 }
+/* G R I D */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+@media (min-width: 768px ){
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+    
+}
 
 /* SECCION PRODUCTOS */
 
 .producto{
-
+    padding: 1rem;
+    background-color: var(--primarioOscuro);
 }
 
 .producto__imagen{
+    width: 100%;
+}
+
+.producto__info{
 
 }
 
-.producto__info{}
-.producto__nombre{}
-.producto__precio{}
+.producto__nombre{
+    font-size: 3rem;
+}
+
+.producto__precio{
+    font-size: 2rem;
+    color: var(--secundario);
+}
+
+.producto__nombre, .producto__precio{
+margin:1rem;
+text-align: center;
+line-height: 1.2;
+}
