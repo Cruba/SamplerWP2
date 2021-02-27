@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat&family=Pacifico&family=Staatliches&display=swap');
+
 :root{
 
     /* Colores */
@@ -11,10 +11,10 @@
 
     /* Fuentes */
 
-    --fuentegeneral:  font-family: 'Montserrat', sans-serif;;
-    --fuentecruba: font-family: 'Pacifico', cursive;
-    --titulos: font-family: 'Staatliches', cursive;
-    --pruebas: font-family: 'DotGothic16', sans-serif;;
+    --fuentegeneral:  'Montserrat', sans-serif;;
+    --fuentecruba: 'Pacifico', cursive;
+    --titulos: 'Staatliches', cursive;
+    --pruebas: 'DotGothic16', sans-serif;;
 
 }
 
@@ -72,3 +72,32 @@ h3{
     font-size: 2.4rem;
 }
 
+/* HEADER */
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo{
+    margin: 3rem 0;
+}
+
+.navegacion{
+background-color: var(--primarioOscuro);
+padding: 1rem 0;
+display: flex;
+justify-content: center;
+gap:2rem;
+}
+
+.navegacion__enlace{
+font-family: var(--titulos);   
+ color: var(--blanco);
+ font-size: 3rem;
+}
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover{
+    color: var(--secundario);
+}
