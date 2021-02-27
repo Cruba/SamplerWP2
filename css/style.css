@@ -136,3 +136,17 @@ font-family: var(--pruebas);
     padding:  1rem ;
     margin-top: 0;
 }
+
+/* SECCION PRODUCTOS */
+
+.producto{
+
+}
+
+.producto__imagen{
+
+}
+
+.producto__info{}
+.producto__nombre{}
+.producto__precio{}
