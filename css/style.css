@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat&family=Pacifico&family=Staatliches&display=swap');
+:root{
+
+    /* Colores */
+
+    --primario: #9C27B0;
+    --primarioOscuro: #89119D;
+    --secundario: #FFCE00;
+    --secundarioOscuro: rgb(233, 287,2);
+    --blanco: #FFF;
+
+    /* Fuentes */
+
+    --fuentegeneral:  font-family: 'Montserrat', sans-serif;;
+    --fuentecruba: font-family: 'Pacifico', cursive;
+    --titulos: font-family: 'Staatliches', cursive;
+    --pruebas: font-family: 'DotGothic16', sans-serif;;
+    
+}
+
+
+body{
+   
+}
