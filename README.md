@@ -5,10 +5,10 @@
 [visita la pagina de prueba](https://cruba.github.io/SamplerWP/)
 
 Unicamente contiene el diseño para una pagina sencilla de ventas.
-    - Estructura BEM CSS
-    - Responsive
-    - Lijero y simple
-    - CSS Puro
+- Estructura BEM CSS
+- Responsive
+- Lijero y simple
+- CSS Puro
 
 ![Proyecto de muestra estatico](/img/imgmuestraresponsive.jpg)
 
