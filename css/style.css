@@ -217,3 +217,39 @@ line-height: 1.2;
     
     }
 }
+
+/* N O S O T R O S  */
+
+.nosotros{
+    display: grid;
+    grid-auto-rows: repeat(2, auto);
+}
+
+@media (min-width: 768px ){
+    .nosotros{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        
+        }
+    
+}
+
+.nosotros__contenido{
+
+    text-align: justify;
+
+}
+
+.nosotros__imagen{
+
+    grid-row:1/2;
+    width: 100%;
+
+
+}
+
+@media (min-width: 768px ){
+    .nosotros__imagen{
+        grid-column:2/3;
+    }
+}
